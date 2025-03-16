@@ -1,0 +1,38 @@
+# Stock Market Dataset Description
+
+## 📌 Overview
+This dataset contains historical stock prices for four major companies: **Apple (AAPL), Microsoft (MSFT), Netflix (NFLX), and Google (GOOG)**.  
+The data includes **daily stock prices** for the past three months, enabling market trend analysis and predictions.
+
+## 📂 File Details
+- **stocks.csv** → The original dataset with raw stock data.
+- **cleaned_stocks.csv** → Processed dataset after handling missing values and preprocessing.
+
+## 📊 Columns Description
+| Column Name  | Data Type  | Description  |
+|--------------|-----------|--------------|
+| `Ticker`     | String    | Stock symbol (AAPL, MSFT, NFLX, GOOG) |
+| `Date`       | DateTime  | Date of the stock data |
+| `Open`       | Float     | Opening price of the stock |
+| `High`       | Float     | Highest price of the stock during the day |
+| `Low`        | Float     | Lowest price of the stock during the day |
+| `Close`      | Float     | Closing price of the stock |
+| `Adj Close`  | Float     | Adjusted closing price considering stock splits and dividends |
+| `Volume`     | Integer   | Total number of shares traded on that day |
+
+## 📌 Data Cleaning Steps
+1. **Removed missing values** to ensure consistency.
+2. **Converted 'Date' column to DateTime format** for better time-series analysis.
+3. **Sorted data by 'Date' and 'Ticker'** for proper chronological analysis.
+
+## 🔗 Data Source
+- The dataset was provided in the project and is available for download.
+- Optionally, stock data can be fetched using APIs such as:
+  - Yahoo Finance API: https://finance.yahoo.com/
+  - Alpha Vantage API: https://www.alphavantage.co/
+
+## 📌 Notes
+- The dataset can be expanded to include more companies.
+- Adjusted Close Price is useful for long-term analysis as it accounts for stock splits and dividends.
+
+---

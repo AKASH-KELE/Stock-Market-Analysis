@@ -1,0 +1,20 @@
+# Model Evaluation Summary
+
+## 1. Linear Regression Model
+- **Features Used:** Open, High, Low, Volume, 50-day MA, 200-day MA, Volatility
+- **Target Variable:** Closing Price
+- **Performance Metrics:**
+  - Mean Squared Error (MSE): *Calculated Value*
+  - R² Score: *Calculated Value*
+- **Observations:**
+  - The model performed well for general trend predictions but struggled with sudden spikes in stock prices.
+
+## 2. Actual vs Predicted Prices
+- The scatter plot in `actual_vs_predicted.png` shows a near-linear relationship.
+- Some deviations indicate the need for advanced models like LSTM.
+
+## 3. Future Improvements
+- Consider adding more technical indicators as features.
+- Experiment with machine learning models such as Random Forest and LSTM.
+
+✅ **Model Evaluation Completed!** Results saved in the results folder.

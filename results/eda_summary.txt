@@ -1,0 +1,21 @@
+# Exploratory Data Analysis (EDA) Summary
+
+## 1. Stock Closing Price Trends
+- Apple (AAPL), Microsoft (MSFT), Netflix (NFLX), and Google (GOOG) stock prices were analyzed.
+- **Trend Observations:**
+  - AAPL showed a steady increase with minor fluctuations.
+  - NFLX displayed high volatility compared to others.
+  - MSFT and GOOG followed similar growth trends.
+- The closing price trend was visualized in `closing_price_trends.png`.
+
+## 2. Correlation Analysis
+- Strong positive correlations between **Open, High, Low, and Close** prices.
+- **Volume** showed a weak negative correlation with price.
+- The correlation matrix heatmap is saved in `correlation_matrix.png`.
+
+## 3. Moving Averages & Volatility
+- 50-day and 200-day moving averages were calculated.
+- **Volatility Analysis:** Netflix had the highest standard deviation in returns.
+- The volatility pattern was useful in understanding market risks.
+
+✅ **EDA Completed!** Graphs saved in the results folder.
